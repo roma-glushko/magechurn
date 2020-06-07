@@ -1,0 +1,4 @@
+pydriller
+pandas
+gitpython
+pygount
