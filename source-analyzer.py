@@ -5,7 +5,7 @@ from utils.SourceScanner import SourceScanner
 # Collects statistic from new release module states
 #
 
-source_scanner = SourceScanner(["../magento2-git/app/code/Magento/Catalog/**/*.*"], folders_to_skip=[r'((.*)\/Test\/(.*))'])
+source_scanner = SourceScanner(["../magento2-git/app/code/Magento/AuthorizenetGraphQl/**/*.*"])
 
 source_paths_and_groups_to_analyze = list(source_scanner.source_paths())
 duplicate_pool = DuplicatePool()
